@@ -43,4 +43,7 @@ Route::group(['prefix'=>'/bck','middleware' => ['auth']], function () {
     Route::resource('roles', 'spatie\RoleController');
     Route::resource('users', 'spatie\UserController');
     Route::resource('permissions', 'spatie\PermissionController');
+
+    Route::get('products', ['uses'=>'ProductController@index']);
+    Route::get('products/getProducts', ['as'=>'products.getProducts','uses'=>'ProductController@getProducts']);
 });

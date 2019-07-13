@@ -1,0 +1,6 @@
+Implementing datatables tutorial using yajra package
+    ==> https://itsolutionstuff.com/post/laravel-5-implementing-datatables-tutorial-using-yajra-packageexample.html
+Spaite USer Managment
+    ==> https://itsolutionstuff.com/post/laravel-56-user-roles-and-permissions-acl-using-spatie-tutorialexample.html
+Laravel Provides Debugbar
+    ==> https://github.com/barryvdh/laravel-debugbar
